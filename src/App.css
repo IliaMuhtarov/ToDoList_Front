@@ -1,0 +1,107 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 600px;
+  background:white;
+  text-align: center;
+  margin: 90px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+ 
+.header{
+  margin: 32px 0;
+  font-size: 24px;
+}
+
+.todo_form{
+  margin-bottom: 32px;
+}
+
+.input-add{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid #170340;
+  width: 320px;
+  background: transparent;
+  color:black;    
+}
+
+.input-edit{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 2px solid #170340;
+  box-shadow: 10px 5px 5px rgb(139, 123, 169);
+  width: 320px;
+  background: transparent;
+  color:black;
+}
+
+.edit-button,
+.add-button{
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgb(43, 8, 112) 0%,
+    rgb(61, 1, 99) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-right: 5px;
+  color: red;
+ 
+}
+
+.edit-icon {
+ color: skyblue;
+}
+
+.todo-container{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: #fff;
+    background: linear-gradient(
+      90deg,
+      rgb(144, 10, 211) 0%,
+      rgb(235, 230, 228) 100%
+    );
+  
+    padding: 16px;
+    border-radius: 5px;
+    width: 380px;
+  }
+
+  .todo-complete{
+    text-decoration: line-through;
+    opacity: 0.4;
+    align-items: center;
+    margin: 4px auto;
+    background: linear-gradient(
+      90deg,
+      rgb(144, 10, 211) 0%,
+      rgb(235, 230, 228) 100%
+    );
+    padding: 16px;
+    border-radius: 5px;
+    width: 380px;
+  }
