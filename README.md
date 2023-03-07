@@ -1,3 +1,8 @@
+# Клиентская часть приложения "Заметки"!
+Стартовый экран при запуске приложения:
+![image](https://user-images.githubusercontent.com/90609655/223530569-7d5082ee-c401-4837-bd40-6f64ce045410.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
